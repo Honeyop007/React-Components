@@ -10,7 +10,7 @@ import Card from './components/card'
 
     const addval = ()=>{
       if (count<20) {
-   
+   //if you want to add 5 at one click
         // setcount(count+1)
         // setcount(count+1)
         // setcount(count+1)
