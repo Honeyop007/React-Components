@@ -19,11 +19,11 @@ import Card from './components/card'
 // because: Because state updates are batched, all these updates use the initial count value (0) and each schedules the state to be updated to count + 1 (1). As a result, after all these updates, count will be 1, not 5.
 
         //use
-        setcount((prevcounter)=> prevcounter+1 )
-        setcount((prevcounter)=> prevcounter+1 )
-        setcount((prevcounter)=> prevcounter+1 )
-        setcount((prevcounter)=> prevcounter+1 )
-        setcount((prevcounter)=> prevcounter+1 )
+        setcount((prevcounter)=>{return prevcounter+1}  )
+        setcount((prevcounter)=> {return prevcounter+1}   )
+        setcount((prevcounter)=> {return prevcounter+1}   )
+        setcount((prevcounter)=>{return prevcounter+1}   )
+        setcount((prevcounter)=> {return prevcounter+1}   )
       }
 //       Why Functional Updates Work
 // 1 : Sequential State Updates: Each setCount((prevCount) => prevCount + 1) call is queued with a function that takes the current state value at the time of the update and returns the new state.
