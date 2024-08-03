@@ -1,6 +1,4 @@
-Sure, I can help you create a GitHub README file for your React project. Below is a sample README file that you can use as a template. This README covers the basic information about the components you've created, including a card component and how to pass different values to different components.
 
-```markdown
 # React Components Project
 
 This project showcases a simple React application where different values are passed to different components to change names and other properties. It includes a `Card` component that displays information dynamically.
